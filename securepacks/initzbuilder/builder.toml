@@ -10,13 +10,13 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS,Py
 [[order]] 
 
   [[order.group]]
-    id = "jns-buildpacks/python"
+    id = "janisar/python"
     version = "4.0.4"
 
 
 # Base images used to create the builder
 [stack]
-  build-image = "initializbuildpacks/securepacks-build:latest"
+  build-image = "janisar/securepacks-build:latest"
   id = "Initializ Distroless Stack"
-  run-image = "initializbuildpacks/securepacks-run:latest"
+  run-image = "janisar/securepacks-run:latest"
   run-image-mirrors = []
