@@ -10,7 +10,7 @@ description = "Initializ Distroless base image with buildpacks for Go, NodeJS,Py
 [[order]] 
 
   [[order.group]]
-    id = "initializ-buildpacks/python"
+    id = "jns-buildpacks/python"
     version = "4.0.4"
 
 
