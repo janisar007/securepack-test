@@ -31,5 +31,5 @@ jobs:
 
       - name: Build and Push Builder to Docker Hub
         run: |
-          pack builder create initializbuildpacks/securepacks-${{ inputs.image }}:latest --config ./securepacks/${{ inputs.image }}/builder.toml
+          pack builder create janisar/securepacks-${{ inputs.image }}:latest --config ./securepacks/${{ inputs.image }}/builder.toml
           docker push janisar/securepacks-${{ inputs.image }}:latest
